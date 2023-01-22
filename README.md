@@ -13,5 +13,5 @@ for x in y:
     
 ```
 
-$ speed = {bits \over bit rate} $
+$$ speed = {bits \over bit rate} $$
 
