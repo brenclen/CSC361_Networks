@@ -1,5 +1,5 @@
 # Chapter 1: Networks
-[Table of Contents](/notes.md)
+[&larr; Back](/README.md)
 
 ## Networks
 > A series of packet switches connected by communication links
@@ -130,3 +130,25 @@
 
 ### Packet Switching
 * breaks data down into packets
+* Packets travel through:
+    * packer switches
+    * link-layer switches
+    * routers
+
+### Transfer Types
+
+#### Store and Forward
+* wait for whole packet to arrive
+> $ Time_{end-to-end} = {NumRouters \times {Bits \over Bits/second}}$
+
+## Queueing Delay
+* Buffer
+* Stored here if outgoing link busy
+* Has finite space
+* Buffer full &rarr; packet loss
+
+## Packet Header
+* Contains destination IP address
+    * router forwards based on portion
+
+## Circuit Switching
