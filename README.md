@@ -5,6 +5,7 @@
 ## Notes
 
 * [Chapter 1](/notes/chapter1.md)
+* [Chapter 2](/notes/chapter2.md)
 
 ## Projects
 
